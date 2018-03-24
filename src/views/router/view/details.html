@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title> vux2 多页面测试 </title>
+  </head>
+  <body>
+    <div id="app">
+        <p>下面的内容将是来自不同的路由</p>
+        <p>
+            <!-- <router-link> 默认会被渲染成一个 `<a>` 标签 -->
+            <router-link to="/route1">去往route1</router-link>
+            <router-link to="/route1">去往route2</router-link>
+         </p>
+		<router-view></router-view>
+	</div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
