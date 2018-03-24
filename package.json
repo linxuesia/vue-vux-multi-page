@@ -2,7 +2,7 @@
   "name": "fxschool",
   "version": "0.0.1",
   "description": "use vue-cli and vux",
-  "author": "zhimadt",
+  "author": "linxuesia",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
